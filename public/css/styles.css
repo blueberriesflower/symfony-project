@@ -1,0 +1,87 @@
+
+#user-profile {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
+
+#user-name {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+#portfolios-title {
+    color: #555;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+#portfolio-count {
+    color: #777;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#portfolios-list {
+    margin-top: 20px;
+}
+
+
+.portfolio-entry {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-info {
+    font-size: 1.1em;
+    color: #444;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.depositary-entry {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.stock-name {
+    font-size: 1em;
+    color: #333;
+    margin: 0;}
+
+.stock-details {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0 0 0;
+}
+
+.portfolio-balance {
+    font-size: 1.2em;
+    color: #2c3e50;
+    margin-top: 10px;
+}
+
+#total-balance {
+    font-size: 1.5em;
+    color: #27ae60;
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #e8f5e9;
+    border-radius: 8px;
+}

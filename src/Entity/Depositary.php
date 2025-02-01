@@ -21,9 +21,6 @@ class Depositary
     #[ORM\JoinColumn(nullable: false)]
     private ?Portfolio $portfolio = null;
 
-    #[ORM\Column]
-    private ?int $quantity = null;
-
     public function getId(): ?int
     {
         return $this->id;
@@ -49,18 +46,6 @@ class Depositary
     public function setPortfolio(?Portfolio $portfolio): static
     {
         $this->portfolio = $portfolio;
-
-        return $this;
-    }
-
-    public function getQuantity(): ?int
-    {
-        return $this->quantity;
-    }
-
-    public function setQuantity(int $quantity): static
-    {
-        $this->quantity = $quantity;
 
         return $this;
     }
